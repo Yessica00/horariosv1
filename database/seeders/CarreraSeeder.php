@@ -13,6 +13,7 @@ class CarreraSeeder extends Seeder
      */
     public function run(): void
     {
+        
      Carrera::factory(5)->create();
     }
 }
